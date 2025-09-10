@@ -31,6 +31,7 @@ h3 {
     font-size: 1.5em;
     border-bottom: 2px solid #2c3e50;
     padding-bottom: 5px;
+    text-align: left;  /* Aligns h3 to the left */
 }
 
 /* Paragraph styling */
@@ -56,3 +57,4 @@ a[href^="mailto:"]:hover {
 body > p:last-of-type {
     margin-bottom: 40px;
 }
+
