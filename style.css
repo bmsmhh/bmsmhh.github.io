@@ -27,11 +27,11 @@ h2 {
 /* Tertiary heading */
 h3 {
     color: #2c3e50;
-    margin-top: 40px;
     font-size: 1.5em;
-    border-bottom: 2px solid #2c3e50;
-    padding-bottom: 5px;
-    text-align: left;  /* Aligns h3 to the left */
+    margin-top: 40px;
+    text-align: left;  /* Aligns heading to the left */
+    border: none;      /* Removes any bottom border */
+    padding-bottom: 0;
 }
 
 /* Paragraph styling */
@@ -57,4 +57,5 @@ a[href^="mailto:"]:hover {
 body > p:last-of-type {
     margin-bottom: 40px;
 }
+
 
