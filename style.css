@@ -1,6 +1,58 @@
+/* General body styles */
 body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Main heading */
+h1 {
+    color: #2c3e50;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
+    font-size: 2.5em;
+}
+
+/* Secondary heading */
+h2 {
+    color: #34495e;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2em;
+}
+
+/* Tertiary heading */
+h3 {
+    color: #2c3e50;
+    margin-top: 40px;
+    font-size: 1.5em;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+}
+
+/* Paragraph styling */
+p {
+    max-width: 800px;
+    margin: 15px auto;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+/* Email link styling */
+a[href^="mailto:"] {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a[href^="mailto:"]:hover {
+    text-decoration: underline;
+}
+
+/* Optional: add some spacing at the bottom */
+body > p:last-of-type {
+    margin-bottom: 40px;
 }
